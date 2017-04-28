@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Breaking Bad Form</title>
+    <link rel="stylesheet" type="text/css" href="css/form1.css">
+</head>
+  <body>
+    <div id="content">
+      <div>
+        <h1 id="header">Welcome to the breaking bad quiz!</h1>
+      </div>
+      <div class="row">
+        <div class="image"><img src="images/app.png" alt="applogo">
+        </div>
+        <div class="formLayout" id="form">
+          <form id="myForm" method="post" action="Breaking bad.html" onsubmit="return validate(this)">
+            <label>Forename</label>
+              <input type="text" maxlength="32" name="forename"><br><br>
+            <label>Surname</label>
+              <td><input type="text" maxlength="32" name="surname"><br><br>
+            <label>Username</label>
+              <input type="text" maxlength="16" name="username"><br><br>
+            <label>Password</label>
+              <input type="text" maxlength="12" name="password"><br><br>
+            <label>Age</label>
+              <input type="text" maxlength="3"  name="age"><br><br>
+            <label>Email</label>
+              <input type="text" maxlength="64" name="email"><br><br>
+            <input type="submit" value="Signup">
+          </form>
+        </div><!-- end div id="description"-->
+      </div><!-- end div id="row"-->
+    </div><!-- end div id="content"-->
+</body>
+<script src="javascript/validate.js"></script>
+
+</html>

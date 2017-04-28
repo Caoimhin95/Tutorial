@@ -1,0 +1,14 @@
+#form{
+	padding: 50px;
+	border:thick;
+	text-align: center;
+	margin: auto;
+}
+#header{
+	text-align:center;
+	padding-top:30px;
+}
+body{
+	background-image:url(../images/brebad.jpg);
+}
+
